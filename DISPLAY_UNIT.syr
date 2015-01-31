@@ -1,0 +1,2168 @@
+Release 14.1 - xst P.15xf (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: DISPLAY_UNIT.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "DISPLAY_UNIT.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "DISPLAY_UNIT"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : DISPLAY_UNIT
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\ipcore_dir\ICON.vhd" into library work
+Parsing entity <ICON>.
+Parsing architecture <ICON_a> of entity <icon>.
+Parsing VHDL file "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" into library work
+Parsing package <rijndael_pack>.
+Parsing package body <rijndael_pack>.
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 398: Ignoring unknown pragma value SBOX_LOOKUP_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 421: Ignoring unknown pragma value SBOX32_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 448: Ignoring unknown pragma value INV_SBOX_LOOKUP_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 472: Ignoring unknown pragma value BYTE_SUB_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 505: Ignoring unknown pragma value INV_BYTE_SUB_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 537: Ignoring unknown pragma value SHIFT_ROW_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 578: Ignoring unknown pragma value INV_SHIFT_ROW_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 619: Ignoring unknown pragma value MIX_COLUMN_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 657: Ignoring unknown pragma value INV_MIX_COLUMN_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 695: Ignoring unknown pragma value POLY_MULTE_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 743: Ignoring unknown pragma value POLY_MULTD_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 830: Ignoring unknown pragma value ADD_ROUNDKEY_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 944: Ignoring unknown pragma value RIJNDAEL_ROUND_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 1020: Ignoring unknown pragma value INITIAL_ROUND_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 1092: Ignoring unknown pragma value FINAL_ROUND_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 1171: Ignoring unknown pragma value EXPANSION_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 1269: Ignoring unknown pragma value KS_SBOX_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 1369: Ignoring unknown pragma value KS_ROUND_FUNCT_dw_op
+Parsing VHDL file "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\key_sched_iterative.vhdl" into library work
+Parsing entity <KEY_SCHEDULE_ITERATIVE>.
+Parsing architecture <KEY_SCHEDULE_ITERATIVE_RTL> of entity <key_schedule_iterative>.
+Parsing VHDL file "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\interface.vhdl" into library work
+Parsing entity <INTERFACE>.
+Parsing architecture <INTERFACE_RTL> of entity <interface>.
+Parsing VHDL file "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\controller_iter.vhdl" into library work
+Parsing entity <CONTROL_ITER>.
+Parsing architecture <CONTROL_ITER_RTL> of entity <control_iter>.
+Parsing VHDL file "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\alg_iterative.vhdl" into library work
+Parsing entity <ALG_ITERATIVE>.
+Parsing architecture <ALG_ITERATIVE_RTL> of entity <alg_iterative>.
+Parsing VHDL file "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\RIJNDAEL_Top_Iterative.vhdl" into library work
+Parsing entity <RIJNDAEL_TOP_ITER>.
+Parsing architecture <STRUCTURAL> of entity <rijndael_top_iter>.
+Parsing configuration <conf_RIJNDAEL_TOP_ITER>.
+Parsing VHDL file "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\RS232RefComp.vhd" into library work
+Parsing entity <Rs232RefComp>.
+Parsing architecture <Behavioral> of entity <rs232refcomp>.
+Parsing VHDL file "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\my_module.vhd" into library work
+Parsing entity <aes_start>.
+Parsing architecture <Behavioral> of entity <aes_start>.
+Parsing VHDL file "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\ipcore_dir\ILA.vhd" into library work
+Parsing entity <ILA>.
+Parsing architecture <ILA_a> of entity <ila>.
+Parsing VHDL file "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\clkdivide.vhd" into library work
+Parsing entity <clkdivide>.
+Parsing architecture <Behavioral> of entity <clkdivide>.
+Parsing VHDL file "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\des_decrypt_wit_out - Copy.vhd" into library work
+Parsing entity <DISPLAY_UNIT>.
+Parsing architecture <behavior> of entity <display_unit>.
+WARNING:HDLCompiler:946 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\des_decrypt_wit_out - Copy.vhd" Line 565: Actual for formal port trig0 is neither a static name nor a globally static expression
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <DISPLAY_UNIT> (architecture <behavior>) with generics from library <work>.
+
+Elaborating entity <clkdivide> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\des_decrypt_wit_out - Copy.vhd" Line 550: packet should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\des_decrypt_wit_out - Copy.vhd" Line 553: packet should be on the sensitivity list of the process
+
+Elaborating entity <ICON> (architecture <ICON_a>) from library <work>.
+
+Elaborating entity <ILA> (architecture <ILA_a>) from library <work>.
+
+Elaborating entity <aes_start> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <RIJNDAEL_TOP_ITER> (architecture <STRUCTURAL>) from library <work>.
+
+Elaborating entity <CONTROL_ITER> (architecture <CONTROL_ITER_RTL>) from library <work>.
+
+Elaborating entity <ALG_ITERATIVE> (architecture <ALG_ITERATIVE_RTL>) from library <work>.
+
+Elaborating entity <KEY_SCHEDULE_ITERATIVE> (architecture <KEY_SCHEDULE_ITERATIVE_RTL>) from library <work>.
+WARNING:HDLCompiler:634 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\key_sched_iterative.vhdl" Line 68: Net <CV_MAPPED128[-8][31]> does not have a driver.
+
+Elaborating entity <INTERFACE> (architecture <INTERFACE_RTL>) from library <work>.
+
+Elaborating entity <Rs232RefComp> (architecture <Behavioral>) from library <work>.
+INFO:HDLCompiler:679 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\des_decrypt_wit_out - Copy.vhd" Line 1254. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:1127 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\des_decrypt_wit_out - Copy.vhd" Line 1035: Assignment to reg_in ignored, since the identifier is never used
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <DISPLAY_UNIT>.
+    Related source file is "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\des_decrypt_wit_out - Copy.vhd".
+        N = 388
+        M = 9
+INFO:Xst:3210 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\des_decrypt_wit_out - Copy.vhd" line 981: Output port <PE> of the instance <UART> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\des_decrypt_wit_out - Copy.vhd" line 981: Output port <FE> of the instance <UART> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\des_decrypt_wit_out - Copy.vhd" line 981: Output port <OE> of the instance <UART> is unconnected or connected to loadless signal.
+    Found 1-bit register for signal <rdSig>.
+    Found 1-bit register for signal <wrSig>.
+    Found 6-bit register for signal <count>.
+    Found 5-bit register for signal <state>.
+    Found 5-bit register for signal <count1>.
+    Found 8-bit register for signal <dbInSig>.
+    Found 9-bit register for signal <Rflag>.
+    Found 388-bit register for signal <tv>.
+    Found 1-bit register for signal <CV_LOAD>.
+    Found 1-bit register for signal <DATA_LOAD>.
+    Found 128-bit register for signal <Data_reg>.
+    Found 1-bit register for signal <Done_12>.
+    Found 4-bit register for signal <val>.
+    Found 8-bit register for signal <hex>.
+    Found 32-bit register for signal <countR>.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 18                                             |
+    | Transitions        | 31                                             |
+    | Inputs             | 12                                             |
+    | Outputs            | 9                                              |
+    | Clock              | clk1 (rising_edge)                             |
+    | Reset              | RST (positive)                                 |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 9-bit adder for signal <Rflag[8]_GND_6_o_add_21_OUT> created at line 1097.
+    Found 5-bit adder for signal <count1[4]_GND_6_o_add_41_OUT> created at line 1140.
+    Found 32-bit adder for signal <countR[31]_GND_6_o_add_120_OUT> created at line 1271.
+    Found 6-bit adder for signal <count[5]_GND_6_o_add_121_OUT> created at line 1274.
+    Found 16x8-bit Read Only RAM for signal <val[3]_GND_6_o_wide_mux_117_OUT>
+WARNING:Xst:737 - Found 1-bit latch for signal <ENC_DEC_B>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 8-bit comparator greater for signal <n0012> created at line 1069
+    Found 8-bit comparator greater for signal <n0014> created at line 1073
+    Found 5-bit comparator greater for signal <PWR_6_o_count1[4]_LessThan_41_o> created at line 1136
+    Found 32-bit comparator greater for signal <countR[31]_GND_6_o_LessThan_120_o> created at line 1270
+    Found 6-bit comparator greater for signal <n0122> created at line 1278
+    Summary:
+	inferred   1 RAM(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred 593 D-type flip-flop(s).
+	inferred   1 Latch(s).
+	inferred   5 Comparator(s).
+	inferred  37 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <DISPLAY_UNIT> synthesized.
+
+Synthesizing Unit <clkdivide>.
+    Related source file is "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\clkdivide.vhd".
+    Found 1-bit register for signal <int_clock>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <clkdivide> synthesized.
+
+Synthesizing Unit <aes_start>.
+    Related source file is "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\my_module.vhd".
+    Found 1-bit register for signal <DONE>.
+    Found 128-bit register for signal <DATA_OUT>.
+    Summary:
+	inferred 129 D-type flip-flop(s).
+Unit <aes_start> synthesized.
+
+Synthesizing Unit <RIJNDAEL_TOP_ITER>.
+    Related source file is "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\RIJNDAEL_Top_Iterative.vhdl".
+    Summary:
+	no macro.
+Unit <RIJNDAEL_TOP_ITER> synthesized.
+
+Synthesizing Unit <CONTROL_ITER>.
+    Related source file is "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\controller_iter.vhdl".
+    Found 1-bit register for signal <CTRL_ALG_START>.
+    Found 1-bit register for signal <DATA_LOAD_DEL>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <CONTROL_ITER> synthesized.
+
+Synthesizing Unit <ALG_ITERATIVE>.
+    Related source file is "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\alg_iterative.vhdl".
+    Found 8-bit register for signal <ALG_DATA<0><1>>.
+    Found 8-bit register for signal <ALG_DATA<0><2>>.
+    Found 8-bit register for signal <ALG_DATA<0><3>>.
+    Found 8-bit register for signal <ALG_DATA<1><0>>.
+    Found 8-bit register for signal <ALG_DATA<1><1>>.
+    Found 8-bit register for signal <ALG_DATA<1><2>>.
+    Found 8-bit register for signal <ALG_DATA<1><3>>.
+    Found 8-bit register for signal <ALG_DATA<2><0>>.
+    Found 8-bit register for signal <ALG_DATA<2><1>>.
+    Found 8-bit register for signal <ALG_DATA<2><2>>.
+    Found 8-bit register for signal <ALG_DATA<2><3>>.
+    Found 8-bit register for signal <ALG_DATA<3><0>>.
+    Found 8-bit register for signal <ALG_DATA<3><1>>.
+    Found 8-bit register for signal <ALG_DATA<3><2>>.
+    Found 8-bit register for signal <ALG_DATA<3><3>>.
+    Found 8-bit register for signal <ALG_DATA<0><0>>.
+    Found 6-bit register for signal <ROUND>.
+    Found 2-bit register for signal <CTRL_STATE>.
+    Found 1-bit register for signal <ALG_DONE_INT>.
+    Found 6-bit adder for signal <ROUND[5]_GND_15_o_add_1054_OUT> created at line 211.
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA_MAP[0][0][7]_GND_15_o_wide_mux_48_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA_MAP[0][1][7]_GND_15_o_wide_mux_50_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA_MAP[0][2][7]_GND_15_o_wide_mux_52_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA_MAP[0][3][7]_GND_15_o_wide_mux_54_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA_MAP[1][0][7]_GND_15_o_wide_mux_56_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA_MAP[1][1][7]_GND_15_o_wide_mux_58_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA_MAP[1][2][7]_GND_15_o_wide_mux_60_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA_MAP[1][3][7]_GND_15_o_wide_mux_62_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA_MAP[2][0][7]_GND_15_o_wide_mux_64_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA_MAP[2][1][7]_GND_15_o_wide_mux_66_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA_MAP[2][2][7]_GND_15_o_wide_mux_68_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA_MAP[2][3][7]_GND_15_o_wide_mux_70_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA_MAP[3][0][7]_GND_15_o_wide_mux_72_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA_MAP[3][1][7]_GND_15_o_wide_mux_74_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA_MAP[3][2][7]_GND_15_o_wide_mux_76_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA_MAP[3][3][7]_GND_15_o_wide_mux_78_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[0][0][7]_GND_15_o_wide_mux_116_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[1][0][7]_GND_15_o_wide_mux_124_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[1][2][7]_GND_15_o_wide_mux_128_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[1][3][7]_GND_15_o_wide_mux_130_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[2][0][7]_GND_15_o_wide_mux_132_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[2][1][7]_GND_15_o_wide_mux_134_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[2][2][7]_GND_15_o_wide_mux_136_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[2][3][7]_GND_15_o_wide_mux_138_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[3][0][7]_GND_15_o_wide_mux_140_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[3][1][7]_GND_15_o_wide_mux_142_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[3][2][7]_GND_15_o_wide_mux_144_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[3][3][7]_GND_15_o_wide_mux_146_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[0][1][7]_GND_15_o_wide_mux_118_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[0][2][7]_GND_15_o_wide_mux_120_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[0][3][7]_GND_15_o_wide_mux_122_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[1][1][7]_GND_15_o_wide_mux_126_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[0][0][7]_GND_15_o_wide_mux_936_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[0][1][7]_GND_15_o_wide_mux_938_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[0][2][7]_GND_15_o_wide_mux_940_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[0][3][7]_GND_15_o_wide_mux_942_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[1][0][7]_GND_15_o_wide_mux_944_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[1][1][7]_GND_15_o_wide_mux_946_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[1][2][7]_GND_15_o_wide_mux_948_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[1][3][7]_GND_15_o_wide_mux_950_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[2][0][7]_GND_15_o_wide_mux_952_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[2][1][7]_GND_15_o_wide_mux_954_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[2][2][7]_GND_15_o_wide_mux_956_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[2][3][7]_GND_15_o_wide_mux_958_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[3][0][7]_GND_15_o_wide_mux_960_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[3][1][7]_GND_15_o_wide_mux_962_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[3][2][7]_GND_15_o_wide_mux_964_OUT>
+    Found 256x8-bit Read Only RAM for signal <ALG_DATA[3][3][7]_GND_15_o_wide_mux_966_OUT>
+    Found 6-bit comparator greater for signal <ROUND[5]_GND_15_o_LessThan_114_o> created at line 138
+    Found 6-bit comparator greater for signal <ROUND[5]_GND_15_o_LessThan_116_o> created at line 140
+    Found 6-bit comparator lessequal for signal <n0247> created at line 161
+    Found 6-bit comparator lessequal for signal <n0251> created at line 163
+    Summary:
+	inferred  48 RAM(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred 137 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+	inferred  84 Multiplexer(s).
+Unit <ALG_ITERATIVE> synthesized.
+
+Synthesizing Unit <KEY_SCHEDULE_ITERATIVE>.
+    Related source file is "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\key_sched_iterative.vhdl".
+WARNING:Xst:653 - Signal <CV_MAPPED128<-8>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <CV_MAPPED128<-7>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <CV_MAPPED128<-6>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <CV_MAPPED128<-5>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 32-bit register for signal <W<-7>>.
+    Found 32-bit register for signal <W<-6>>.
+    Found 32-bit register for signal <W<-5>>.
+    Found 32-bit register for signal <W<-4>>.
+    Found 32-bit register for signal <W<-3>>.
+    Found 32-bit register for signal <W<-2>>.
+    Found 32-bit register for signal <W<-1>>.
+    Found 32-bit register for signal <W<-8>>.
+    Found 8-bit register for signal <CV_RUNUP_STEP>.
+    Found 2-bit register for signal <RUNUP_STATE>.
+    Found 32-bit register for signal <W_START<-8>>.
+    Found 32-bit register for signal <W_START<-7>>.
+    Found 32-bit register for signal <W_START<-6>>.
+    Found 32-bit register for signal <W_START<-5>>.
+    Found 32-bit register for signal <W_START<-4>>.
+    Found 32-bit register for signal <W_START<-3>>.
+    Found 32-bit register for signal <W_START<-2>>.
+    Found 32-bit register for signal <W_START<-1>>.
+    Found finite state machine <FSM_1> for signal <RUNUP_STATE>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 14                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 2                                              |
+    | Clock              | clock (rising_edge)                            |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | hold                                           |
+    | Power Up State     | hold                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 4-bit subtractor for signal <GND_16_o_GND_16_o_sub_206_OUT> created at line 1421.
+    Found 16-bit subtractor for signal <GND_16_o_GND_16_o_sub_211_OUT> created at line 1432.
+    Found 9-bit adder for signal <n0779[8:0]> created at line 180.
+    Found 16-bit subtractor for signal <GND_16_o_GND_16_o_sub_203_OUT<15:0>> created at line 1416.
+    Found 256x8-bit Read Only RAM for signal <KS_CV_SIZE[1]_GND_16_o_wide_mux_217_OUT>
+    Found 256x8-bit Read Only RAM for signal <KS_CV_SIZE[1]_GND_16_o_wide_mux_219_OUT>
+    Found 256x8-bit Read Only RAM for signal <KS_CV_SIZE[1]_GND_16_o_wide_mux_221_OUT>
+    Found 256x8-bit Read Only RAM for signal <KS_CV_SIZE[1]_GND_16_o_wide_mux_223_OUT>
+    Found 32x8-bit Read Only RAM for signal <KS_CV_SIZE[1]_X_16_o_wide_mux_226_OUT>
+    Found 256x8-bit Read Only RAM for signal <RUNUP_STATE[1]_GND_16_o_wide_mux_257_OUT>
+    Found 256x8-bit Read Only RAM for signal <RUNUP_STATE[1]_GND_16_o_wide_mux_258_OUT>
+    Found 256x8-bit Read Only RAM for signal <RUNUP_STATE[1]_GND_16_o_wide_mux_259_OUT>
+    Found 256x8-bit Read Only RAM for signal <RUNUP_STATE[1]_GND_16_o_wide_mux_260_OUT>
+    Found 64x2-bit Read Only RAM for signal <RUNUP_STATE[1]_X_16_o_wide_mux_286_OUT>
+    Found 256x8-bit Read Only RAM for signal <RUNUP_STATE[1]_GND_16_o_wide_mux_309_OUT>
+    Found 256x8-bit Read Only RAM for signal <RUNUP_STATE[1]_GND_16_o_wide_mux_310_OUT>
+    Found 256x8-bit Read Only RAM for signal <RUNUP_STATE[1]_GND_16_o_wide_mux_311_OUT>
+    Found 256x8-bit Read Only RAM for signal <RUNUP_STATE[1]_GND_16_o_wide_mux_312_OUT>
+    Found 32-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_200_OUT> created at line 1386.
+    Found 16-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_GND_16_o_wide_mux_211_OUT> created at line 1413.
+    Found 32-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_212_OUT> created at line 1413.
+    Found 32-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_273_OUT> created at line 1448.
+    Found 32-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_274_OUT> created at line 1448.
+    Found 32-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_275_OUT> created at line 1448.
+    Found 32-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_276_OUT> created at line 1448.
+    Found 32-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_322_OUT> created at line 1512.
+    Found 32-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_323_OUT> created at line 1512.
+    Found 32-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_324_OUT> created at line 1512.
+    Found 32-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_325_OUT> created at line 1512.
+    Found 32-bit 4-to-1 multiplexer for signal <RUNUP_STATE[1]_W[-8][31]_wide_mux_458_OUT> created at line 190.
+    Found 32-bit 4-to-1 multiplexer for signal <RUNUP_STATE[1]_W[-7][31]_wide_mux_459_OUT> created at line 190.
+    Found 32-bit 4-to-1 multiplexer for signal <RUNUP_STATE[1]_W[-6][31]_wide_mux_460_OUT> created at line 190.
+    Found 32-bit 4-to-1 multiplexer for signal <RUNUP_STATE[1]_W[-5][31]_wide_mux_461_OUT> created at line 190.
+    Found 32-bit 4-to-1 multiplexer for signal <RUNUP_STATE[1]_W[-4][31]_wide_mux_462_OUT> created at line 190.
+    Found 32-bit 4-to-1 multiplexer for signal <RUNUP_STATE[1]_W[-3][31]_wide_mux_463_OUT> created at line 190.
+    Found 32-bit 4-to-1 multiplexer for signal <RUNUP_STATE[1]_W[-2][31]_wide_mux_464_OUT> created at line 190.
+    Found 32-bit 4-to-1 multiplexer for signal <RUNUP_STATE[1]_W[-1][31]_wide_mux_465_OUT> created at line 190.
+    Found 8-bit 4-to-1 multiplexer for signal <RUNUP_STATE[1]_GND_16_o_wide_mux_522_OUT> created at line 302.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[31]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[30]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[29]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[28]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[27]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[26]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[25]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[24]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[23]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[22]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[21]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[20]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[19]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[18]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[17]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[16]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[15]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[14]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[13]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[12]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[11]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[10]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[9]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[8]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[7]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[6]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[5]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[4]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[3]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[2]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[1]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_RUNUP_STATE[1]_wide_mux_213_OUT[0]> created at line 1413.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_GND_16_o_wide_mux_199_OUT[4]> created at line 1386.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_GND_16_o_wide_mux_199_OUT[3]> created at line 1386.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_GND_16_o_wide_mux_199_OUT[2]> created at line 1386.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_GND_16_o_wide_mux_199_OUT[1]> created at line 1386.
+    Found 1-bit 3-to-1 multiplexer for signal <KS_CV_SIZE[1]_GND_16_o_wide_mux_199_OUT[0]> created at line 1386.
+    Summary:
+	inferred  14 RAM(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred 520 D-type flip-flop(s).
+	inferred 402 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <KEY_SCHEDULE_ITERATIVE> synthesized.
+
+Synthesizing Unit <INTERFACE>.
+    Related source file is "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\interface.vhdl".
+    Found 128-bit register for signal <ALG_DATA_INT>.
+    Found 2-bit register for signal <KS_CVSIZE>.
+    Found 256-bit register for signal <CV_INT>.
+    Found 1-bit register for signal <CTRL_ENC_DEC_B>.
+    Found 1-bit register for signal <KS_CVLOAD>.
+    Found 1-bit register for signal <CTRL_DATA_LOAD>.
+    Summary:
+	inferred 389 D-type flip-flop(s).
+Unit <INTERFACE> synthesized.
+
+Synthesizing Unit <Rs232RefComp>.
+    Related source file is "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\RS232RefComp.vhd".
+    Found 1-bit register for signal <rClk>.
+    Found 4-bit register for signal <rClkDiv>.
+    Found 4-bit register for signal <ctr>.
+    Found 4-bit register for signal <tfCtr>.
+    Found 1-bit register for signal <FE>.
+    Found 1-bit register for signal <OE>.
+    Found 1-bit register for signal <RDA>.
+    Found 1-bit register for signal <PE>.
+    Found 8-bit register for signal <rdReg>.
+    Found 10-bit register for signal <rdSReg>.
+    Found 4-bit register for signal <dataCtr>.
+    Found 2-bit register for signal <strCur>.
+    Found 2-bit register for signal <stbeCur>.
+    Found 11-bit register for signal <tfSReg>.
+    Found 2-bit register for signal <sttCur>.
+    Found 9-bit register for signal <clkDiv>.
+    Found finite state machine <FSM_2> for signal <strCur>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 7                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 3                                              |
+    | Clock              | rClk (rising_edge)                             |
+    | Reset              | RST (positive)                                 |
+    | Reset type         | synchronous                                    |
+    | Reset State        | stridle                                        |
+    | Power Up State     | stridle                                        |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_3> for signal <stbeCur>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 2                                              |
+    | Clock              | CLK (rising_edge)                              |
+    | Reset              | RST (positive)                                 |
+    | Reset type         | synchronous                                    |
+    | Reset State        | stbeidle                                       |
+    | Power Up State     | stbeidle                                       |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_4> for signal <sttCur>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 5                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 2                                              |
+    | Clock              | tClk (rising_edge)                             |
+    | Reset              | RST (positive)                                 |
+    | Reset type         | synchronous                                    |
+    | Reset State        | sttidle                                        |
+    | Power Up State     | sttidle                                        |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 9-bit adder for signal <clkDiv[8]_GND_18_o_add_3_OUT> created at line 127.
+    Found 4-bit adder for signal <rClkDiv[3]_GND_18_o_add_7_OUT> created at line 146.
+    Found 4-bit adder for signal <ctr[3]_GND_18_o_add_9_OUT> created at line 158.
+    Found 4-bit adder for signal <tfCtr[3]_GND_18_o_add_12_OUT> created at line 169.
+    Found 4-bit adder for signal <dataCtr[3]_GND_18_o_add_20_OUT> created at line 210.
+    Found 1-bit 4-to-1 multiplexer for signal <ctRst> created at line 231.
+WARNING:Xst:737 - Found 1-bit latch for signal <TBE>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred   5 Adder/Subtractor(s).
+	inferred  59 D-type flip-flop(s).
+	inferred   1 Latch(s).
+	inferred   4 Multiplexer(s).
+	inferred   3 Finite State Machine(s).
+Unit <Rs232RefComp> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 63
+ 16x8-bit single-port Read Only RAM                    : 1
+ 256x8-bit single-port Read Only RAM                   : 60
+ 32x8-bit single-port Read Only RAM                    : 1
+ 64x2-bit single-port Read Only RAM                    : 1
+# Adders/Subtractors                                   : 13
+ 16-bit subtractor                                     : 1
+ 32-bit adder                                          : 1
+ 4-bit adder                                           : 4
+ 4-bit subtractor                                      : 1
+ 5-bit adder                                           : 1
+ 6-bit adder                                           : 2
+ 9-bit adder                                           : 3
+# Registers                                            : 74
+ 1-bit register                                        : 18
+ 10-bit register                                       : 1
+ 11-bit register                                       : 1
+ 128-bit register                                      : 3
+ 2-bit register                                        : 2
+ 256-bit register                                      : 1
+ 32-bit register                                       : 17
+ 388-bit register                                      : 1
+ 4-bit register                                        : 5
+ 5-bit register                                        : 1
+ 6-bit register                                        : 2
+ 8-bit register                                        : 20
+ 9-bit register                                        : 2
+# Latches                                              : 2
+ 1-bit latch                                           : 2
+# Comparators                                          : 9
+ 32-bit comparator greater                             : 1
+ 5-bit comparator greater                              : 1
+ 6-bit comparator greater                              : 3
+ 6-bit comparator lessequal                            : 2
+ 8-bit comparator greater                              : 2
+# Multiplexers                                         : 528
+ 1-bit 2-to-1 multiplexer                              : 139
+ 1-bit 3-to-1 multiplexer                              : 37
+ 1-bit 4-to-1 multiplexer                              : 1
+ 11-bit 2-to-1 multiplexer                             : 1
+ 128-bit 2-to-1 multiplexer                            : 1
+ 16-bit 2-to-1 multiplexer                             : 6
+ 32-bit 2-to-1 multiplexer                             : 125
+ 32-bit 3-to-1 multiplexer                             : 10
+ 32-bit 4-to-1 multiplexer                             : 8
+ 4-bit 2-to-1 multiplexer                              : 33
+ 6-bit 2-to-1 multiplexer                              : 3
+ 8-bit 2-to-1 multiplexer                              : 162
+ 8-bit 4-to-1 multiplexer                              : 1
+ 9-bit 2-to-1 multiplexer                              : 1
+# FSMs                                                 : 5
+# Xors                                                 : 184
+ 1-bit xor8                                            : 1
+ 1-bit xor9                                            : 1
+ 32-bit xor2                                           : 30
+ 8-bit xor2                                            : 116
+ 8-bit xor4                                            : 4
+ 8-bit xor6                                            : 16
+ 8-bit xor7                                            : 12
+ 8-bit xor8                                            : 4
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/ILA.ngc>.
+Reading core <ipcore_dir/ICON.ngc>.
+Loading core <ILA> for timing and area information for instance <ILA_core>.
+Loading core <ICON> for timing and area information for instance <ICON_core>.
+INFO:Xst:2261 - The FF/Latch <CTRL_STATE_0> in Unit <ALG> is equivalent to the following FF/Latch, which will be removed : <CTRL_STATE_1> 
+WARNING:Xst:1710 - FF/Latch <KS_CVSIZE_0> (without init value) has a constant value of 0 in block <INTER>. This FF/Latch will be trimmed during the optimization process.
+
+Synthesizing (advanced) Unit <ALG_ITERATIVE>.
+The following registers are absorbed into counter <ROUND>: 1 register on signal <ROUND>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[0][1][7]_GND_15_o_wide_mux_118_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA<0><1>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[0][2][7]_GND_15_o_wide_mux_120_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA<0><2>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[0][3][7]_GND_15_o_wide_mux_122_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA<0><3>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[1][0][7]_GND_15_o_wide_mux_124_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA<1><0>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[1][1][7]_GND_15_o_wide_mux_126_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA<1><1>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[1][2][7]_GND_15_o_wide_mux_128_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA<1><2>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[1][3][7]_GND_15_o_wide_mux_130_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA<1><3>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[2][0][7]_GND_15_o_wide_mux_132_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA<2><0>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[2][1][7]_GND_15_o_wide_mux_134_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA<2><1>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[2][2][7]_GND_15_o_wide_mux_136_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA<2><2>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[2][3][7]_GND_15_o_wide_mux_138_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA<2><3>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[3][0][7]_GND_15_o_wide_mux_140_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA<3><0>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[3][1][7]_GND_15_o_wide_mux_142_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA<3><1>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[3][2][7]_GND_15_o_wide_mux_144_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA<3><2>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[3][3][7]_GND_15_o_wide_mux_146_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA<3><3>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[0][0][7]_GND_15_o_wide_mux_116_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA<0><0>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA_MAP[0][0][7]_GND_15_o_wide_mux_48_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA_MAP[0][0][7]_ALG_KEY[0][0][7]_xor_32_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA_MAP[0][1][7]_GND_15_o_wide_mux_50_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA_MAP[0][1][7]_ALG_KEY[0][1][7]_xor_33_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA_MAP[0][2][7]_GND_15_o_wide_mux_52_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA_MAP[0][2][7]_ALG_KEY[0][2][7]_xor_34_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA_MAP[0][3][7]_GND_15_o_wide_mux_54_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA_MAP[0][3][7]_ALG_KEY[0][3][7]_xor_35_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA_MAP[1][0][7]_GND_15_o_wide_mux_56_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA_MAP[1][0][7]_ALG_KEY[1][0][7]_xor_20_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA_MAP[1][1][7]_GND_15_o_wide_mux_58_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA_MAP[1][1][7]_ALG_KEY[1][1][7]_xor_21_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA_MAP[1][2][7]_GND_15_o_wide_mux_60_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA_MAP[1][2][7]_ALG_KEY[1][2][7]_xor_22_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA_MAP[1][3][7]_GND_15_o_wide_mux_62_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA_MAP[1][3][7]_ALG_KEY[1][3][7]_xor_39_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA_MAP[2][0][7]_GND_15_o_wide_mux_64_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA_MAP[2][0][7]_ALG_KEY[2][0][7]_xor_24_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA_MAP[2][1][7]_GND_15_o_wide_mux_66_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA_MAP[2][1][7]_ALG_KEY[2][1][7]_xor_25_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA_MAP[2][2][7]_GND_15_o_wide_mux_68_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA_MAP[2][2][7]_ALG_KEY[2][2][7]_xor_42_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA_MAP[2][3][7]_GND_15_o_wide_mux_70_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA_MAP[2][3][7]_ALG_KEY[2][3][7]_xor_43_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA_MAP[3][0][7]_GND_15_o_wide_mux_72_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA_MAP[3][0][7]_ALG_KEY[3][0][7]_xor_28_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA_MAP[3][1][7]_GND_15_o_wide_mux_74_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA_MAP[3][1][7]_ALG_KEY[3][1][7]_xor_45_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA_MAP[3][2][7]_GND_15_o_wide_mux_76_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA_MAP[3][2][7]_ALG_KEY[3][2][7]_xor_46_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA_MAP[3][3][7]_GND_15_o_wide_mux_78_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA_MAP[3][3][7]_ALG_KEY[3][3][7]_xor_47_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[1][0][7]_GND_15_o_wide_mux_944_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA[1][0][7]_ALG_DATA[0][0][7]_xor_561_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[2][0][7]_GND_15_o_wide_mux_952_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA[2][0][7]_ALG_DATA[1][0][7]_xor_697_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[3][0][7]_GND_15_o_wide_mux_960_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA[3][0][7]_ALG_DATA[2][0][7]_xor_833_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[1][1][7]_GND_15_o_wide_mux_946_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA[1][1][7]_ALG_DATA[0][1][7]_xor_595_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[2][1][7]_GND_15_o_wide_mux_954_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA[2][1][7]_ALG_DATA[1][1][7]_xor_731_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[3][1][7]_GND_15_o_wide_mux_962_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA[3][1][7]_ALG_DATA[2][1][7]_xor_867_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[1][2][7]_GND_15_o_wide_mux_948_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA[1][2][7]_ALG_DATA[0][2][7]_xor_629_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[2][2][7]_GND_15_o_wide_mux_956_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA[2][2][7]_ALG_DATA[1][2][7]_xor_765_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[3][2][7]_GND_15_o_wide_mux_964_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA[3][2][7]_ALG_DATA[2][2][7]_xor_901_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[0][1][7]_GND_15_o_wide_mux_938_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA[0][1][7]_ALG_DATA[3][1][7]_xor_459_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[0][2][7]_GND_15_o_wide_mux_940_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA[0][2][7]_ALG_DATA[3][2][7]_xor_493_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[0][3][7]_GND_15_o_wide_mux_942_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA[0][3][7]_ALG_DATA[3][3][7]_xor_527_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[2][3][7]_GND_15_o_wide_mux_958_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA[2][3][7]_ALG_DATA[1][3][7]_xor_799_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[3][3][7]_GND_15_o_wide_mux_966_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA[3][3][7]_ALG_DATA[2][3][7]_xor_935_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[0][0][7]_GND_15_o_wide_mux_936_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA[0][0][7]_ALG_DATA[3][0][7]_xor_425_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ALG_DATA[1][3][7]_GND_15_o_wide_mux_950_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ALG_DATA[1][3][7]_ALG_DATA[0][3][7]_xor_663_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <ALG_ITERATIVE> synthesized (advanced).
+
+Synthesizing (advanced) Unit <DISPLAY_UNIT>.
+The following registers are absorbed into counter <count1>: 1 register on signal <count1>.
+The following registers are absorbed into counter <Rflag>: 1 register on signal <Rflag>.
+The following registers are absorbed into counter <countR>: 1 register on signal <countR>.
+INFO:Xst:3231 - The small RAM <Mram_val[3]_GND_6_o_wide_mux_117_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <val>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3217 - HDL ADVISOR - Register <dbInSig> currently described with an asynchronous reset, could be combined with distributed RAM <Mram_val[3]_GND_6_o_wide_mux_117_OUT> for implementation on block RAM resources if you made this reset synchronous instead.
+Unit <DISPLAY_UNIT> synthesized (advanced).
+
+Synthesizing (advanced) Unit <KEY_SCHEDULE_ITERATIVE>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_RUNUP_STATE[1]_GND_16_o_wide_mux_257_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <RUNUP_STATE[1]_KS_CV_SIZE[1]_wide_mux_191_OUT<31:24>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_RUNUP_STATE[1]_GND_16_o_wide_mux_258_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <RUNUP_STATE[1]_KS_CV_SIZE[1]_wide_mux_191_OUT<23:16>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_RUNUP_STATE[1]_GND_16_o_wide_mux_259_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <RUNUP_STATE[1]_KS_CV_SIZE[1]_wide_mux_191_OUT<15:8>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_RUNUP_STATE[1]_GND_16_o_wide_mux_260_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <RUNUP_STATE[1]_KS_CV_SIZE[1]_wide_mux_191_OUT<7:0>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_RUNUP_STATE[1]_GND_16_o_wide_mux_309_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <RUNUP_STATE[1]_KS_CV_SIZE[1]_wide_mux_188_OUT<31:24>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_RUNUP_STATE[1]_GND_16_o_wide_mux_310_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <RUNUP_STATE[1]_KS_CV_SIZE[1]_wide_mux_188_OUT<23:16>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_RUNUP_STATE[1]_GND_16_o_wide_mux_311_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <RUNUP_STATE[1]_KS_CV_SIZE[1]_wide_mux_188_OUT<15:8>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_RUNUP_STATE[1]_GND_16_o_wide_mux_312_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <RUNUP_STATE[1]_KS_CV_SIZE[1]_wide_mux_188_OUT<7:0>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_RUNUP_STATE[1]_X_16_o_wide_mux_286_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 64-word x 2-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <RUNUP_STATE[1]_GND_16_o_wide_mux_183_OUT<5:0>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_KS_CV_SIZE[1]_X_16_o_wide_mux_226_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <KS_CV_SIZE[1]_KS_CV_SIZE[1]_mux_214_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_KS_CV_SIZE[1]_GND_16_o_wide_mux_217_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <KS_CV_SIZE[1]_KS_CV_SIZE[1]_mux_216_OUT<31:24>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_KS_CV_SIZE[1]_GND_16_o_wide_mux_219_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <KS_CV_SIZE[1]_KS_CV_SIZE[1]_mux_216_OUT<23:16>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_KS_CV_SIZE[1]_GND_16_o_wide_mux_221_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <KS_CV_SIZE[1]_KS_CV_SIZE[1]_mux_216_OUT<15:8>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_KS_CV_SIZE[1]_GND_16_o_wide_mux_223_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <KS_CV_SIZE[1]_KS_CV_SIZE[1]_mux_216_OUT<7:0>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <KEY_SCHEDULE_ITERATIVE> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Rs232RefComp>.
+The following registers are absorbed into counter <clkDiv>: 1 register on signal <clkDiv>.
+The following registers are absorbed into counter <rClkDiv>: 1 register on signal <rClkDiv>.
+The following registers are absorbed into counter <ctr>: 1 register on signal <ctr>.
+The following registers are absorbed into counter <tfCtr>: 1 register on signal <tfCtr>.
+The following registers are absorbed into counter <dataCtr>: 1 register on signal <dataCtr>.
+Unit <Rs232RefComp> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 63
+ 16x8-bit single-port distributed Read Only RAM        : 1
+ 256x8-bit single-port distributed Read Only RAM       : 60
+ 32x8-bit single-port distributed Read Only RAM        : 1
+ 64x2-bit single-port distributed Read Only RAM        : 1
+# Adders/Subtractors                                   : 4
+ 4-bit subtractor                                      : 1
+ 5-bit subtractor                                      : 1
+ 6-bit adder                                           : 1
+ 9-bit adder                                           : 1
+# Counters                                             : 9
+ 32-bit up counter                                     : 1
+ 4-bit up counter                                      : 4
+ 5-bit up counter                                      : 1
+ 6-bit up counter                                      : 1
+ 9-bit up counter                                      : 2
+# Registers                                            : 1753
+ Flip-Flops                                            : 1753
+# Comparators                                          : 9
+ 32-bit comparator greater                             : 1
+ 5-bit comparator greater                              : 1
+ 6-bit comparator greater                              : 3
+ 6-bit comparator lessequal                            : 2
+ 8-bit comparator greater                              : 2
+# Multiplexers                                         : 524
+ 1-bit 2-to-1 multiplexer                              : 138
+ 1-bit 3-to-1 multiplexer                              : 37
+ 1-bit 4-to-1 multiplexer                              : 1
+ 11-bit 2-to-1 multiplexer                             : 1
+ 128-bit 2-to-1 multiplexer                            : 1
+ 16-bit 2-to-1 multiplexer                             : 6
+ 32-bit 2-to-1 multiplexer                             : 124
+ 32-bit 3-to-1 multiplexer                             : 10
+ 32-bit 4-to-1 multiplexer                             : 8
+ 4-bit 2-to-1 multiplexer                              : 33
+ 6-bit 2-to-1 multiplexer                              : 2
+ 8-bit 2-to-1 multiplexer                              : 162
+ 8-bit 4-to-1 multiplexer                              : 1
+# FSMs                                                 : 5
+# Xors                                                 : 184
+ 1-bit xor8                                            : 1
+ 1-bit xor9                                            : 1
+ 32-bit xor2                                           : 30
+ 8-bit xor2                                            : 116
+ 8-bit xor4                                            : 4
+ 8-bit xor6                                            : 16
+ 8-bit xor7                                            : 12
+ 8-bit xor8                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <CTRL_STATE_0> in Unit <ALG_ITERATIVE> is equivalent to the following FF/Latch, which will be removed : <CTRL_STATE_1> 
+WARNING:Xst:1710 - FF/Latch <KS_CVSIZE_0> (without init value) has a constant value of 0 in block <INTERFACE>. This FF/Latch will be trimmed during the optimization process.
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_0> on signal <state[1:5]> with user encoding.
+-------------------------
+ State       | Encoding
+-------------------------
+ idle        | 00000
+ receive     | 00001
+ decide      | 00010
+ cnt         | 00011
+ send11      | 00100
+ send13      | 00101
+ send2       | 00110
+ trans_out   | 00111
+ state_1     | 01000
+ state_2     | 01001
+ state_3     | 01010
+ state_12    | 01011
+ stinput     | 01100
+ stoutput    | 01101
+ st_output1  | 01110
+ test_vector | 01111
+ dummy       | 10000
+ displayi    | 10001
+-------------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <UART/FSM_2> on signal <strCur[1:2]> with user encoding.
+---------------------------
+ State         | Encoding
+---------------------------
+ stridle       | 00
+ streightdelay | 01
+ strgetdata    | 10
+ strcheckstop  | 11
+---------------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <UART/FSM_4> on signal <sttCur[1:2]> with user encoding.
+-------------------------
+ State       | Encoding
+-------------------------
+ sttidle     | 00
+ stttransfer | 01
+ sttshift    | 10
+-------------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <UART/FSM_3> on signal <stbeCur[1:2]> with gray encoding.
+---------------------------
+ State         | Encoding
+---------------------------
+ stbeidle      | 00
+ stbesettbe    | 01
+ stbewaitload  | 11
+ stbewaitwrite | 10
+---------------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <AES/aes_portmap/KEYSCH/FSM_1> on signal <RUNUP_STATE[1:2]> with gray encoding.
+-----------------------
+ State     | Encoding
+-----------------------
+ hold      | 00
+ cv_runup  | 11
+ cv_expand | 01
+ done      | 10
+-----------------------
+WARNING:Xst:1710 - FF/Latch <hex_5> (without init value) has a constant value of 1 in block <DISPLAY_UNIT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <tfSReg_10> has a constant value of 1 in block <Rs232RefComp>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <rdSig> in Unit <DISPLAY_UNIT> is equivalent to the following FF/Latch, which will be removed : <wrSig> 
+WARNING:Xst:3002 - This design contains one or more registers/latches that are directly
+   incompatible with the Spartan6 architecture. The two primary causes of this is
+   either a register or latch described with both an asynchronous set and
+   asynchronous reset, or a register or latch described with an asynchronous
+   set or reset which however has an initialization value of the opposite 
+   polarity (i.e. asynchronous reset with an initialization value of 1).
+    While this circuit can be built, it creates a sub-optimal implementation
+   in terms of area, power and performance. For a more optimal implementation
+   Xilinx highly recommends one of the following:
+
+          1) Remove either the set or reset from all registers and latches
+             if not needed for required functionality
+          2) Modify the code in order to produce a synchronous set
+             and/or reset (both is preferred)
+          3) Ensure all registers have the same initialization value as the
+             described asynchronous set or reset polarity
+          4) Use the -async_to_sync option to transform the asynchronous
+             set/reset to synchronous operation
+             (timing simulation highly recommended when using this option)
+
+  Please refer to http://www.xilinx.com search string "Spartan6 asynchronous set/reset" for more details.
+
+  List of register instances with asynchronous set or reset and opposite initialization value:
+    count_5 in unit <DISPLAY_UNIT>
+    count_4 in unit <DISPLAY_UNIT>
+    count_3 in unit <DISPLAY_UNIT>
+    count_2 in unit <DISPLAY_UNIT>
+    count_1 in unit <DISPLAY_UNIT>
+
+
+Optimizing unit <INTERFACE> ...
+
+Optimizing unit <DISPLAY_UNIT> ...
+
+Optimizing unit <Rs232RefComp> ...
+
+Optimizing unit <aes_start> ...
+
+Optimizing unit <ALG_ITERATIVE> ...
+
+Optimizing unit <KEY_SCHEDULE_ITERATIVE> ...
+WARNING:Xst:2677 - Node <UART/OE> of sequential type is unconnected in block <DISPLAY_UNIT>.
+WARNING:Xst:2677 - Node <UART/PE> of sequential type is unconnected in block <DISPLAY_UNIT>.
+WARNING:Xst:2677 - Node <UART/FE> of sequential type is unconnected in block <DISPLAY_UNIT>.
+WARNING:Xst:1710 - FF/Latch <countR_21> (without init value) has a constant value of 0 in block <DISPLAY_UNIT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <countR_22> (without init value) has a constant value of 0 in block <DISPLAY_UNIT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <countR_23> (without init value) has a constant value of 0 in block <DISPLAY_UNIT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <countR_24> (without init value) has a constant value of 0 in block <DISPLAY_UNIT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <countR_25> (without init value) has a constant value of 0 in block <DISPLAY_UNIT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <countR_26> (without init value) has a constant value of 0 in block <DISPLAY_UNIT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <countR_27> (without init value) has a constant value of 0 in block <DISPLAY_UNIT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <countR_28> (without init value) has a constant value of 0 in block <DISPLAY_UNIT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <countR_29> (without init value) has a constant value of 0 in block <DISPLAY_UNIT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <countR_30> (without init value) has a constant value of 0 in block <DISPLAY_UNIT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <countR_31> (without init value) has a constant value of 0 in block <DISPLAY_UNIT>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block DISPLAY_UNIT, actual ratio is 81.
+WARNING:Xst:1426 - The value init of the FF/Latch count_1_LD hinder the constant cleaning in the block DISPLAY_UNIT.
+   You should achieve better results by setting this init to 1.
+FlipFlop AES/aes_portmap/INTER/CTRL_ENC_DEC_B has been replicated 11 time(s)
+FlipFlop AES/aes_portmap/INTER/KS_CVLOAD has been replicated 5 time(s)
+FlipFlop AES/aes_portmap/INTER/KS_CVSIZE_1 has been replicated 14 time(s)
+FlipFlop AES/aes_portmap/KEYSCH/RUNUP_STATE_FSM_FFd1 has been replicated 1 time(s)
+FlipFlop AES/aes_portmap/KEYSCH/RUNUP_STATE_FSM_FFd2 has been replicated 4 time(s)
+
+Final Macro Processing ...
+
+Processing Unit <DISPLAY_UNIT> :
+	Found 3-bit shift register for signal <UART/rdSReg_7>.
+Unit <DISPLAY_UNIT> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 1861
+ Flip-Flops                                            : 1861
+# Shift Registers                                      : 1
+ 3-bit shift register                                  : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : DISPLAY_UNIT.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 8915
+#      GND                         : 3
+#      INV                         : 18
+#      LUT1                        : 67
+#      LUT2                        : 1130
+#      LUT3                        : 454
+#      LUT4                        : 610
+#      LUT5                        : 751
+#      LUT6                        : 4115
+#      MUXCY                       : 36
+#      MUXCY_L                     : 72
+#      MUXF5                       : 2
+#      MUXF6                       : 1
+#      MUXF7                       : 1078
+#      MUXF8                       : 482
+#      VCC                         : 3
+#      XORCY                       : 93
+# FlipFlops/Latches                : 2072
+#      FD                          : 17
+#      FDC                         : 328
+#      FDCE                        : 941
+#      FDE                         : 611
+#      FDP                         : 7
+#      FDPE                        : 6
+#      FDR                         : 72
+#      FDRE                        : 77
+#      FDS                         : 9
+#      LD                          : 3
+#      LDC                         : 1
+# RAMS                             : 1
+#      RAMB8BWER                   : 1
+# Shift Registers                  : 47
+#      SRL16                       : 5
+#      SRL16E                      : 1
+#      SRLC16E                     : 12
+#      SRLC32E                     : 29
+# Clock Buffers                    : 5
+#      BUFG                        : 4
+#      BUFGP                       : 1
+# IO Buffers                       : 11
+#      IBUF                        : 2
+#      OBUF                        : 9
+# Others                           : 5
+#      BSCAN_SPARTAN6              : 1
+#      CFGLUT5                     : 4
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            2072  out of  18224    11%  
+ Number of Slice LUTs:                 7192  out of   9112    78%  
+    Number used as Logic:              7145  out of   9112    78%  
+    Number used as Memory:               47  out of   2176     2%  
+       Number used as SRL:               47
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   7764
+   Number with an unused Flip Flop:    5692  out of   7764    73%  
+   Number with an unused LUT:           572  out of   7764     7%  
+   Number of fully used LUT-FF pairs:  1500  out of   7764    19%  
+   Number of unique control sets:        91
+
+IO Utilization: 
+ Number of IOs:                          12
+ Number of bonded IOBs:                  12  out of    232     5%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                1  out of     32     3%  
+    Number using Block RAM only:          1
+ Number of BUFG/BUFGCTRLs:                5  out of     16    31%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+--------------------------------------------------------------------------------+-----------------------------------------------------+-------+
+Clock Signal                                                                    | Clock buffer(FF name)                               | Load  |
+--------------------------------------------------------------------------------+-----------------------------------------------------+-------+
+clock_div/int_clock                                                             | BUFG                                                | 1947  |
+tv_387                                                                          | NONE(ENC_DEC_B)                                     | 1     |
+clk                                                                             | BUFGP                                               | 1     |
+UART/rClkDiv_3                                                                  | NONE(UART/tfCtr_3)                                  | 16    |
+UART/rClk                                                                       | BUFG                                                | 32    |
+UART/stbeCur_FSM_FFd1                                                           | NONE(UART/TBE)                                      | 1     |
+ICON_core/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL                                | BUFG                                                | 120   |
+ICON_core/CONTROL0<13>(ICON_core/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[9].U_LCE:O)| NONE(*)(ILA_core/U0/I_NO_D.U_ILA/U_STAT/U_DIRTY_LDC)| 1     |
+ICON_core/U0/iUPDATE_OUT                                                        | NONE(ICON_core/U0/U_ICON/U_iDATA_CMD)               | 1     |
+RST                                                                             | IBUF+BUFG                                           | 1     |
+--------------------------------------------------------------------------------+-----------------------------------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 9.375ns (Maximum Frequency: 106.663MHz)
+   Minimum input arrival time before clock: 6.858ns
+   Maximum output required time after clock: 5.086ns
+   Maximum combinational path delay: 3.669ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock_div/int_clock'
+  Clock period: 9.375ns (frequency: 106.663MHz)
+  Total number of paths / destination ports: 1303808 / 3561
+-------------------------------------------------------------------------
+Delay:               9.375ns (Levels of Logic = 9)
+  Source:            AES/aes_portmap/INTER/CTRL_ENC_DEC_B_1 (FF)
+  Destination:       AES/aes_portmap/ALG/ALG_DATA_3_1_7 (FF)
+  Source Clock:      clock_div/int_clock rising
+  Destination Clock: clock_div/int_clock rising
+
+  Data Path: AES/aes_portmap/INTER/CTRL_ENC_DEC_B_1 to AES/aes_portmap/ALG/ALG_DATA_3_1_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             15   0.447   1.210  AES/aes_portmap/INTER/CTRL_ENC_DEC_B_1 (AES/aes_portmap/INTER/CTRL_ENC_DEC_B_1)
+     LUT3:I0->O           25   0.205   1.193  AES/aes_portmap/CTRL/Mmux_CTRL_KS_START11_1 (AES/aes_portmap/CTRL/Mmux_CTRL_KS_START11)
+     LUT6:I5->O            9   0.205   0.830  AES/aes_portmap/KEYSCH/Mmux_KS_ROUND_KEY<3><2>23 (AES/aes_portmap/top_round_key1<3><2><0>)
+     LUT2:I1->O            7   0.205   1.118  AES/aes_portmap/ALG/Mxor_ALG_DATA[3][2][7]_ALG_KEY[3][2][7]_xor_390_OUT_0_xo<0>1 (AES/aes_portmap/ALG/ALG_DATA[3][2][7]_ALG_KEY[3][2][7]_xor_390_OUT<0>)
+     LUT6:I1->O            3   0.203   0.651  AES/aes_portmap/ALG/ALG_DATA[0][2][7]_ALG_DATA[3][2][7]_xor_493_OUT<3>3 (AES/aes_portmap/ALG/ALG_DATA[0][2][7]_ALG_DATA[3][2][7]_xor_493_OUT<3>_bdd4)
+     LUT6:I5->O           32   0.205   1.520  AES/aes_portmap/ALG/ALG_DATA[3][2][7]_ALG_DATA[2][2][7]_xor_901_OUT<3> (AES/aes_portmap/ALG/ALG_DATA[3][2][7]_ALG_DATA[2][2][7]_xor_901_OUT<3>)
+     LUT6:I3->O            1   0.205   0.000  AES/aes_portmap/ALG_Mram_ALG_DATA[3][2][7]_GND_15_o_wide_mux_964_OUT41 (AES/aes_portmap/ALG_Mram_ALG_DATA[3][2][7]_GND_15_o_wide_mux_964_OUT4)
+     MUXF7:I1->O           1   0.140   0.000  AES/aes_portmap/ALG_Mram_ALG_DATA[3][2][7]_GND_15_o_wide_mux_964_OUT4_f7 (AES/aes_portmap/ALG_Mram_ALG_DATA[3][2][7]_GND_15_o_wide_mux_964_OUT4_f7)
+     MUXF8:I1->O           1   0.152   0.580  AES/aes_portmap/ALG_Mram_ALG_DATA[3][2][7]_GND_15_o_wide_mux_964_OUT4_f8 (AES/aes_portmap/ALG/ALG_DATA[3][2][7]_GND_15_o_wide_mux_964_OUT<2>)
+     LUT6:I5->O            1   0.205   0.000  AES/aes_portmap/ALG/Mmux_CTRL_STATE[1]_ALG_DATA[3][1][7]_wide_mux_1029_OUT64 (AES/aes_portmap/ALG/CTRL_STATE[1]_ALG_DATA[3][1][7]_wide_mux_1029_OUT<2>)
+     FDCE:D                    0.102          AES/aes_portmap/ALG/ALG_DATA_3_1_2
+    ----------------------------------------
+    Total                      9.375ns (2.274ns logic, 7.101ns route)
+                                       (24.3% logic, 75.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 1.913ns (frequency: 522.821MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.913ns (Levels of Logic = 1)
+  Source:            clock_div/int_clock (FF)
+  Destination:       clock_div/int_clock (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: clock_div/int_clock to clock_div/int_clock
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.447   0.579  clock_div/int_clock (clock_div/int_clock)
+     INV:I->O              1   0.206   0.579  clock_div/int_clock_INV_1_o1_INV_0 (clock_div/int_clock_INV_1_o)
+     FD:D                      0.102          clock_div/int_clock
+    ----------------------------------------
+    Total                      1.913ns (0.755ns logic, 1.158ns route)
+                                       (39.5% logic, 60.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'UART/rClkDiv_3'
+  Clock period: 2.865ns (frequency: 348.991MHz)
+  Total number of paths / destination ports: 61 / 30
+-------------------------------------------------------------------------
+Delay:               2.865ns (Levels of Logic = 1)
+  Source:            UART/sttCur_FSM_FFd1 (FF)
+  Destination:       UART/tfSReg_9 (FF)
+  Source Clock:      UART/rClkDiv_3 rising
+  Destination Clock: UART/rClkDiv_3 rising
+
+  Data Path: UART/sttCur_FSM_FFd1 to UART/tfSReg_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             13   0.447   1.037  UART/sttCur_FSM_FFd1 (UART/sttCur_FSM_FFd1)
+     LUT2:I0->O           10   0.203   0.856  UART/_n0172_inv1 (UART/_n0172_inv)
+     FDE:CE                    0.322          UART/tfSReg_0
+    ----------------------------------------
+    Total                      2.865ns (0.972ns logic, 1.893ns route)
+                                       (33.9% logic, 66.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'UART/rClk'
+  Clock period: 3.816ns (frequency: 262.058MHz)
+  Total number of paths / destination ports: 201 / 60
+-------------------------------------------------------------------------
+Delay:               3.816ns (Levels of Logic = 2)
+  Source:            UART/ctr_1 (FF)
+  Destination:       UART/ctr_3 (FF)
+  Source Clock:      UART/rClk rising
+  Destination Clock: UART/rClk rising
+
+  Data Path: UART/ctr_1 to UART/ctr_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              8   0.447   0.907  UART/ctr_1 (UART/ctr_1)
+     LUT2:I0->O            1   0.203   0.944  UART/ctRst_SW0 (N14)
+     LUT6:I0->O            4   0.203   0.683  UART/ctRst (UART/ctRst)
+     FDR:R                     0.430          UART/ctr_0
+    ----------------------------------------
+    Total                      3.816ns (1.283ns logic, 2.533ns route)
+                                       (33.6% logic, 66.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ICON_core/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL'
+  Clock period: 6.607ns (frequency: 151.345MHz)
+  Total number of paths / destination ports: 1760 / 220
+-------------------------------------------------------------------------
+Delay:               6.607ns (Levels of Logic = 5)
+  Source:            ICON_core/U0/U_ICON/U_CMD/G_TARGET[12].I_NE0.U_TARGET (FF)
+  Destination:       ILA_core/U0/I_NO_D.U_ILA/U_STAT/U_STAT_CNT/G[0].U_FDRE (FF)
+  Source Clock:      ICON_core/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL rising
+  Destination Clock: ICON_core/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL rising
+
+  Data Path: ICON_core/U0/U_ICON/U_CMD/G_TARGET[12].I_NE0.U_TARGET to ILA_core/U0/I_NO_D.U_ILA/U_STAT/U_STAT_CNT/G[0].U_FDRE
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            18   0.447   1.297  U0/U_ICON/U_CMD/G_TARGET[12].I_NE0.U_TARGET (U0/U_ICON/iCORE_ID<0>)
+     LUT4:I0->O           32   0.203   1.396  U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[0].U_LUT (U0/U_ICON/iCORE_ID_SEL<0>)
+     LUT4:I2->O            4   0.203   0.788  U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[0].U_LCE (CONTROL0<4>)
+     end scope: 'ICON_core:CONTROL0<4>'
+     begin scope: 'ILA_core:CONTROL<4>'
+     LUT2:I0->O            1   0.203   0.579  U0/I_NO_D.U_ILA/U_STAT/U_STATCMD (U0/I_NO_D.U_ILA/U_STAT/iSTATCMD_CE)
+     INV:I->O             10   0.206   0.856  U0/I_NO_D.U_ILA/U_STAT/U_STATCMD_n (U0/I_NO_D.U_ILA/U_STAT/iSTATCMD_CE_n)
+     FDRE:R                    0.430          U0/I_NO_D.U_ILA/U_STAT/U_STAT_CNT/G[9].U_FDRE
+    ----------------------------------------
+    Total                      6.607ns (1.692ns logic, 4.915ns route)
+                                       (25.6% logic, 74.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ICON_core/U0/iUPDATE_OUT'
+  Clock period: 1.984ns (frequency: 504.007MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.984ns (Levels of Logic = 1)
+  Source:            ICON_core/U0/U_ICON/U_iDATA_CMD (FF)
+  Destination:       ICON_core/U0/U_ICON/U_iDATA_CMD (FF)
+  Source Clock:      ICON_core/U0/iUPDATE_OUT rising
+  Destination Clock: ICON_core/U0/iUPDATE_OUT rising
+
+  Data Path: ICON_core/U0/U_ICON/U_iDATA_CMD to ICON_core/U0/U_ICON/U_iDATA_CMD
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.447   0.650  U0/U_ICON/U_iDATA_CMD (U0/U_ICON/iDATA_CMD)
+     INV:I->O              1   0.206   0.579  U0/U_ICON/U_iDATA_CMD_n (U0/U_ICON/iDATA_CMD_n)
+     FDC:D                     0.102          U0/U_ICON/U_iDATA_CMD
+    ----------------------------------------
+    Total                      1.984ns (0.755ns logic, 1.229ns route)
+                                       (38.1% logic, 61.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock_div/int_clock'
+  Total number of paths / destination ports: 1821 / 1814
+-------------------------------------------------------------------------
+Offset:              6.858ns (Levels of Logic = 3)
+  Source:            RST (PAD)
+  Destination:       Data_reg_0 (FF)
+  Destination Clock: clock_div/int_clock rising
+
+  Data Path: RST to Data_reg_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O          1268   1.222   2.376  RST_IBUF (RST_IBUF)
+     LUT2:I0->O            1   0.203   0.580  _n0601_inv_SW0 (N12)
+     LUT6:I5->O          128   0.205   1.950  _n0601_inv (_n0601_inv)
+     FDE:CE                    0.322          Data_reg_0
+    ----------------------------------------
+    Total                      6.858ns (1.952ns logic, 4.906ns route)
+                                       (28.5% logic, 71.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'UART/rClk'
+  Total number of paths / destination ports: 17 / 17
+-------------------------------------------------------------------------
+Offset:              4.823ns (Levels of Logic = 2)
+  Source:            RST (PAD)
+  Destination:       UART/rdReg_7 (FF)
+  Destination Clock: UART/rClk rising
+
+  Data Path: RST to UART/rdReg_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O          1268   1.222   2.272  RST_IBUF (RST_IBUF)
+     LUT4:I3->O            8   0.205   0.802  UART/_n0168_inv11 (UART/_n0168_inv)
+     FDE:CE                    0.322          UART/rdReg_0
+    ----------------------------------------
+    Total                      4.823ns (1.749ns logic, 3.074ns route)
+                                       (36.3% logic, 63.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'UART/rClkDiv_3'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              3.923ns (Levels of Logic = 1)
+  Source:            RST (PAD)
+  Destination:       UART/sttCur_FSM_FFd2 (FF)
+  Destination Clock: UART/rClkDiv_3 rising
+
+  Data Path: RST to UART/sttCur_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O          1268   1.222   2.271  RST_IBUF (RST_IBUF)
+     FDR:R                     0.430          UART/sttCur_FSM_FFd1
+    ----------------------------------------
+    Total                      3.923ns (1.652ns logic, 2.271ns route)
+                                       (42.1% logic, 57.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'ICON_core/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL'
+  Total number of paths / destination ports: 147 / 134
+-------------------------------------------------------------------------
+Offset:              5.660ns (Levels of Logic = 5)
+  Source:            ICON_core/U0/U_ICON/I_YES_BSCAN.U_BS/I_S6.ISYN.I_USE_SOFTBSCAN_EQ0.U_BS:SHIFT (PAD)
+  Destination:       ILA_core/U0/I_NO_D.U_ILA/U_STAT/U_STAT_CNT/G[0].U_FDRE (FF)
+  Destination Clock: ICON_core/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL rising
+
+  Data Path: ICON_core/U0/U_ICON/I_YES_BSCAN.U_BS/I_S6.ISYN.I_USE_SOFTBSCAN_EQ0.U_BS:SHIFT to ILA_core/U0/I_NO_D.U_ILA/U_STAT/U_STAT_CNT/G[0].U_FDRE
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    BSCAN_SPARTAN6:SHIFT    3   0.000   0.651  U0/U_ICON/I_YES_BSCAN.U_BS/I_S6.ISYN.I_USE_SOFTBSCAN_EQ0.U_BS (U0/iSHIFT_OUT)
+     LUT2:I1->O           32   0.205   1.539  U0/U_ICON/U_CTRL_OUT/U_DATA_VALID (U0/U_ICON/U_CTRL_OUT/iDATA_VALID)
+     LUT4:I0->O            4   0.203   0.788  U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[0].U_LCE (CONTROL0<4>)
+     end scope: 'ICON_core:CONTROL0<4>'
+     begin scope: 'ILA_core:CONTROL<4>'
+     LUT2:I0->O            1   0.203   0.579  U0/I_NO_D.U_ILA/U_STAT/U_STATCMD (U0/I_NO_D.U_ILA/U_STAT/iSTATCMD_CE)
+     INV:I->O             10   0.206   0.856  U0/I_NO_D.U_ILA/U_STAT/U_STATCMD_n (U0/I_NO_D.U_ILA/U_STAT/iSTATCMD_CE_n)
+     FDRE:R                    0.430          U0/I_NO_D.U_ILA/U_STAT/U_STAT_CNT/G[9].U_FDRE
+    ----------------------------------------
+    Total                      5.660ns (1.247ns logic, 4.413ns route)
+                                       (22.0% logic, 78.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'ICON_core/U0/iUPDATE_OUT'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              1.831ns (Levels of Logic = 1)
+  Source:            ICON_core/U0/U_ICON/I_YES_BSCAN.U_BS/I_S6.ISYN.I_USE_SOFTBSCAN_EQ0.U_BS:SEL (PAD)
+  Destination:       ICON_core/U0/U_ICON/U_iDATA_CMD (FF)
+  Destination Clock: ICON_core/U0/iUPDATE_OUT rising
+
+  Data Path: ICON_core/U0/U_ICON/I_YES_BSCAN.U_BS/I_S6.ISYN.I_USE_SOFTBSCAN_EQ0.U_BS:SEL to ICON_core/U0/U_ICON/U_iDATA_CMD
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    BSCAN_SPARTAN6:SEL     2   0.000   0.616  U0/U_ICON/I_YES_BSCAN.U_BS/I_S6.ISYN.I_USE_SOFTBSCAN_EQ0.U_BS (U0/U_ICON/iSEL)
+     INV:I->O              1   0.206   0.579  U0/U_ICON/U_iSEL_n (U0/U_ICON/iSEL_n)
+     FDC:CLR                   0.430          U0/U_ICON/U_iDATA_CMD
+    ----------------------------------------
+    Total                      1.831ns (0.636ns logic, 1.195ns route)
+                                       (34.7% logic, 65.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock_div/int_clock'
+  Total number of paths / destination ports: 13 / 13
+-------------------------------------------------------------------------
+Offset:              5.086ns (Levels of Logic = 1)
+  Source:            tv_387 (FF)
+  Destination:       led<6> (PAD)
+  Source Clock:      clock_div/int_clock rising
+
+  Data Path: tv_387 to led<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q           273   0.447   2.068  tv_387 (tv_387)
+     OBUF:I->O                 2.571          led_6_OBUF (led<6>)
+    ----------------------------------------
+    Total                      5.086ns (3.018ns logic, 2.068ns route)
+                                       (59.3% logic, 40.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'UART/rClkDiv_3'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.597ns (Levels of Logic = 1)
+  Source:            UART/tfSReg_0 (FF)
+  Destination:       TXD (PAD)
+  Source Clock:      UART/rClkDiv_3 rising
+
+  Data Path: UART/tfSReg_0 to TXD
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.447   0.579  UART/tfSReg_0 (UART/tfSReg_0)
+     OBUF:I->O                 2.571          TXD_OBUF (TXD)
+    ----------------------------------------
+    Total                      3.597ns (3.018ns logic, 0.579ns route)
+                                       (83.9% logic, 16.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'ICON_core/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL'
+  Total number of paths / destination ports: 46 / 6
+-------------------------------------------------------------------------
+Offset:              4.617ns (Levels of Logic = 3)
+  Source:            ICON_core/U0/U_ICON/U_CMD/G_TARGET[12].I_NE0.U_TARGET (FF)
+  Destination:       ILA_core/U0/I_NO_D.U_ILA/U_TRIG/U_TM/G_NMU[0].U_M/U_MU/I_MUT_VAR.U_match/I_SRL32.U_VAR_SRL32/I_TWMOD8_NE0.I_NO_RPM.U_SRLA:CE (PAD)
+  Source Clock:      ICON_core/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL rising
+
+  Data Path: ICON_core/U0/U_ICON/U_CMD/G_TARGET[12].I_NE0.U_TARGET to ILA_core/U0/I_NO_D.U_ILA/U_TRIG/U_TM/G_NMU[0].U_M/U_MU/I_MUT_VAR.U_match/I_SRL32.U_VAR_SRL32/I_TWMOD8_NE0.I_NO_RPM.U_SRLA:CE
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            18   0.447   1.297  U0/U_ICON/U_CMD/G_TARGET[12].I_NE0.U_TARGET (U0/U_ICON/iCORE_ID<0>)
+     LUT4:I0->O           32   0.203   1.396  U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[0].U_LUT (U0/U_ICON/iCORE_ID_SEL<0>)
+     LUT4:I2->O           19   0.203   1.071  U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[0].U_HCE (CONTROL0<20>)
+     end scope: 'ICON_core:CONTROL0<20>'
+     begin scope: 'ILA_core:CONTROL<20>'
+    CFGLUT5:CE                 0.000          U0/I_NO_D.U_ILA/U_TRIG/U_TM/G_NMU[0].U_M/U_MU/I_MUT_VAR.U_match/I_SRL32.U_VAR_SRL32/I_TWMOD8_NE0.I_NO_RPM.U_SRLD
+    ----------------------------------------
+    Total                      4.617ns (0.853ns logic, 3.764ns route)
+                                       (18.5% logic, 81.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 7 / 7
+-------------------------------------------------------------------------
+Delay:               3.669ns (Levels of Logic = 3)
+  Source:            ICON_core/U0/U_ICON/I_YES_BSCAN.U_BS/I_S6.ISYN.I_USE_SOFTBSCAN_EQ0.U_BS:SHIFT (PAD)
+  Destination:       ILA_core/U0/I_NO_D.U_ILA/U_TRIG/U_TM/G_NMU[0].U_M/U_MU/I_MUT_VAR.U_match/I_SRL32.U_VAR_SRL32/I_TWMOD8_NE0.I_NO_RPM.U_SRLA:CE (PAD)
+
+  Data Path: ICON_core/U0/U_ICON/I_YES_BSCAN.U_BS/I_S6.ISYN.I_USE_SOFTBSCAN_EQ0.U_BS:SHIFT to ILA_core/U0/I_NO_D.U_ILA/U_TRIG/U_TM/G_NMU[0].U_M/U_MU/I_MUT_VAR.U_match/I_SRL32.U_VAR_SRL32/I_TWMOD8_NE0.I_NO_RPM.U_SRLA:CE
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    BSCAN_SPARTAN6:SHIFT    3   0.000   0.651  U0/U_ICON/I_YES_BSCAN.U_BS/I_S6.ISYN.I_USE_SOFTBSCAN_EQ0.U_BS (U0/iSHIFT_OUT)
+     LUT2:I1->O           32   0.205   1.539  U0/U_ICON/U_CTRL_OUT/U_DATA_VALID (U0/U_ICON/U_CTRL_OUT/iDATA_VALID)
+     LUT4:I0->O           19   0.203   1.071  U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[0].U_HCE (CONTROL0<20>)
+     end scope: 'ICON_core:CONTROL0<20>'
+     begin scope: 'ILA_core:CONTROL<20>'
+    CFGLUT5:CE                 0.000          U0/I_NO_D.U_ILA/U_TRIG/U_TM/G_NMU[0].U_M/U_MU/I_MUT_VAR.U_match/I_SRL32.U_VAR_SRL32/I_TWMOD8_NE0.I_NO_RPM.U_SRLD
+    ----------------------------------------
+    Total                      3.669ns (0.408ns logic, 3.261ns route)
+                                       (11.1% logic, 88.9% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock ICON_core/CONTROL0<13>
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+clock_div/int_clock|         |         |    1.948|         |
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock ICON_core/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL
+------------------------------------------------+---------+---------+---------+---------+
+                                                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                                    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------------------------------------+---------+---------+---------+---------+
+ICON_core/CONTROL0<13>                          |         |    4.643|         |         |
+ICON_core/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL|    6.607|         |         |         |
+ICON_core/U0/iUPDATE_OUT                        |    2.583|         |         |         |
+clock_div/int_clock                             |    3.634|         |         |         |
+------------------------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock ICON_core/U0/iUPDATE_OUT
+------------------------+---------+---------+---------+---------+
+                        | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock            |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------------+---------+---------+---------+---------+
+ICON_core/U0/iUPDATE_OUT|    1.984|         |         |         |
+------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock UART/rClk
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+UART/rClk          |    3.816|         |         |         |
+clock_div/int_clock|    2.561|         |         |         |
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock UART/rClkDiv_3
+---------------------+---------+---------+---------+---------+
+                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------+---------+---------+---------+---------+
+UART/rClkDiv_3       |    2.865|         |         |         |
+UART/stbeCur_FSM_FFd1|    1.650|         |         |         |
+clock_div/int_clock  |    2.401|         |         |         |
+---------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock UART/stbeCur_FSM_FFd1
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+clock_div/int_clock|    1.442|         |         |         |
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    1.913|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clock_div/int_clock
+------------------------------------------------+---------+---------+---------+---------+
+                                                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                                    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------------------------------------+---------+---------+---------+---------+
+ICON_core/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL|    5.579|         |         |         |
+RST                                             |         |    7.367|         |         |
+UART/rClk                                       |    5.831|         |         |         |
+UART/rClkDiv_3                                  |    1.686|         |         |         |
+UART/stbeCur_FSM_FFd1                           |    1.798|         |         |         |
+clock_div/int_clock                             |    9.375|         |         |         |
+tv_387                                          |         |    1.508|         |         |
+------------------------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock tv_387
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+clock_div/int_clock|         |         |    1.100|         |
+-------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 97.00 secs
+Total CPU time to Xst completion: 97.31 secs
+ 
+--> 
+
+Total memory usage is 342636 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   49 (   0 filtered)
+Number of infos    :   72 (   0 filtered)
+

@@ -1,0 +1,891 @@
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+xst -intstyle ise -ifn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.xst" -ofn "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/DISPLAY_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DISPLAY_UNIT.ucf -p xc6slx16-csg324-3 DISPLAY_UNIT.ngc DISPLAY_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ngd DISPLAY_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_UNIT_map.ncd DISPLAY_UNIT.ncd DISPLAY_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY_UNIT.twx DISPLAY_UNIT.ncd -o DISPLAY_UNIT.twr DISPLAY_UNIT.pcf -ucf DISPLAY_UNIT.ucf 
+bitgen -intstyle ise -f DISPLAY_UNIT.ut DISPLAY_UNIT.ncd 

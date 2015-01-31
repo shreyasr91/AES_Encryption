@@ -1,0 +1,30 @@
+Running: C:\Xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/AES_test_isim_beh.exe -prj C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/AES_test_beh.prj work.AES_test 
+ISim P.15xf (signature 0xc3576ebc)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/rijndael_pkg.vhdl" into library work
+Parsing VHDL file "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/key_sched_iterative.vhdl" into library work
+Parsing VHDL file "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/interface.vhdl" into library work
+Parsing VHDL file "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/controller_iter.vhdl" into library work
+Parsing VHDL file "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/alg_iterative.vhdl" into library work
+Parsing VHDL file "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/RIJNDAEL_Top_Iterative.vhdl" into library work
+Parsing VHDL file "C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/AES_test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package rijndael_pack
+Compiling architecture control_iter_rtl of entity CONTROL_ITER [control_iter_default]
+Compiling architecture alg_iterative_rtl of entity ALG_ITERATIVE [alg_iterative_default]
+Compiling architecture key_schedule_iterative_rtl of entity KEY_SCHEDULE_ITERATIVE [key_schedule_iterative_default]
+Compiling architecture interface_rtl of entity INTERFACE [interface_default]
+Compiling architecture structural of entity RIJNDAEL_TOP_ITER [rijndael_top_iter_default]
+Compiling architecture behavior of entity aes_test
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 15 VHDL Units
+Built simulation executable C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/AES_test_isim_beh.exe
+Fuse Memory Usage: 35364 KB
+Fuse CPU Usage: 1465 ms

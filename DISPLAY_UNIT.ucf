@@ -1,0 +1,49 @@
+############# FOR NEXYS2 BOARD #######
+#INST "clk_BUFGP" LOC = BUFGMUX_X2Y11;
+#NET "clk" LOC = B8;
+#NET "RST" LOC = B18;
+#NET "RXD" LOC = U6;
+#NET "TXD" LOC = P9;
+######################################
+
+############ FOR NEXYS3 BOARD ########
+
+## Clock signal
+NET "clk"            LOC = "V10" | IOSTANDARD = "LVCMOS33";   #Bank = 2, pin name = IO_L30N_GCLK0_USERCCLK,            Sch name = GCLK
+#Net "clk" TNM_NET = sys_clk_pin;
+#TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;
+#NET "RXD" CLOCK_DEDICATED_ROUTE = FALSE;
+
+## Usb-RS232 interface
+NET "RXD"           LOC = "N17" | IOSTANDARD = "LVCMOS33";   #Bank = 1, Pin name = IO_L48P_HDC_M1DQ8,                 Sch name = MCU-RX
+NET "TXD"           LOC = "N18" | IOSTANDARD = "LVCMOS33";   #Bank = 1, Pin name = IO_L48N_M1DQ9,                     Sch name = MCU-TX
+
+## Buttons
+#NET "rst"         LOC = "B8"  | IOSTANDARD = "LVCMOS33";   #Bank = 0, Pin name = IO_L33P,                           Sch name = BTNS
+
+##switch
+NET "rst"          LOC = "T10" | IOSTANDARD = "LVCMOS33";   #Bank = 2, Pin name = IO_L29N_GCLK2,                     Sch name = SW0
+
+
+## Leds
+NET "LED<0>"         LOC = "U16" | IOSTANDARD = "LVCMOS33";   #Bank = 2, Pin name = IO_L2P_CMPCLK,                     Sch name = LD0
+NET "LED<1>"         LOC = "V16" | IOSTANDARD = "LVCMOS33";   #Bank = 2, Pin name = IO_L2N_CMPMOSI,                    Sch name = LD1
+NET "LED<2>"         LOC = "U15" | IOSTANDARD = "LVCMOS33";   #Bank = 2, Pin name = IO_L5P,                            Sch name = LD2
+NET "LED<3>"         LOC = "V15" | IOSTANDARD = "LVCMOS33";   #Bank = 2, Pin name = IO_L5N,                            Sch name = LD3
+NET "LED<4>"         LOC = "M11" | IOSTANDARD = "LVCMOS33";   #Bank = 2, Pin name = IO_L15P,                           Sch name = LD4
+NET "Led<5>"         LOC = "N11" | IOSTANDARD = "LVCMOS33";   #Bank = 2, Pin name = IO_L15N,                           Sch name = LD5
+NET "LED<6>"         LOC = "R11" | IOSTANDARD = "LVCMOS33";   #Bank = 2, Pin name = IO_L16P,                           Sch name = LD6
+NET "LED<7>"         LOC = "T11" | IOSTANDARD = "LVCMOS33";   #Bank = 2, Pin name = IO_L16N_VREF,                      Sch name = LD7
+############# FOR SPARTAN 3E BOARD #######
+#NET "RST" LOC = L13;
+#NET "RXD" IOSTANDARD = LVTTL;
+#NET "RXD" LOC = R7;
+#NET "TXD" IOSTANDARD = LVTTL;
+#NET "TXD" DRIVE = 8;
+#NET "TXD" SLEW = SLOW;
+#NET "TXD" LOC = M14;
+#NET "CLK" LOC = "C9" | IOSTANDARD = LVCMOS33 ;
+## Define clock period for 50 MHz oscillator (50%/50% duty-cycle)
+#NET "CLK" PERIOD = 20.0ns HIGH 50%;
+######################################
+

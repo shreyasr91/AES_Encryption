@@ -1,0 +1,94 @@
+Release 14.1 - xst P.15xf (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.28 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Shreyas/Desktop/vhdl_prj/vini_proj/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.29 secs
+ 
+--> Reading design: AES_test.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" into library work
+Parsing package <rijndael_pack>.
+Parsing package body <rijndael_pack>.
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 398: Ignoring unknown pragma value SBOX_LOOKUP_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 421: Ignoring unknown pragma value SBOX32_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 448: Ignoring unknown pragma value INV_SBOX_LOOKUP_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 472: Ignoring unknown pragma value BYTE_SUB_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 505: Ignoring unknown pragma value INV_BYTE_SUB_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 537: Ignoring unknown pragma value SHIFT_ROW_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 578: Ignoring unknown pragma value INV_SHIFT_ROW_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 619: Ignoring unknown pragma value MIX_COLUMN_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 657: Ignoring unknown pragma value INV_MIX_COLUMN_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 695: Ignoring unknown pragma value POLY_MULTE_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 743: Ignoring unknown pragma value POLY_MULTD_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 830: Ignoring unknown pragma value ADD_ROUNDKEY_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 944: Ignoring unknown pragma value RIJNDAEL_ROUND_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 1020: Ignoring unknown pragma value INITIAL_ROUND_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 1092: Ignoring unknown pragma value FINAL_ROUND_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 1171: Ignoring unknown pragma value EXPANSION_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 1269: Ignoring unknown pragma value KS_SBOX_FUNCT_dw_op
+WARNING:HDLCompiler:466 - "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\rijndael_pkg.vhdl" Line 1369: Ignoring unknown pragma value KS_ROUND_FUNCT_dw_op
+Parsing VHDL file "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\key_sched_iterative.vhdl" into library work
+Parsing entity <KEY_SCHEDULE_ITERATIVE>.
+Parsing architecture <KEY_SCHEDULE_ITERATIVE_RTL> of entity <key_schedule_iterative>.
+Parsing VHDL file "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\interface.vhdl" into library work
+Parsing entity <INTERFACE>.
+Parsing architecture <INTERFACE_RTL> of entity <interface>.
+Parsing VHDL file "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\controller_iter.vhdl" into library work
+Parsing entity <CONTROL_ITER>.
+Parsing architecture <CONTROL_ITER_RTL> of entity <control_iter>.
+Parsing VHDL file "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\alg_iterative.vhdl" into library work
+Parsing entity <ALG_ITERATIVE>.
+Parsing architecture <ALG_ITERATIVE_RTL> of entity <alg_iterative>.
+Parsing VHDL file "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\RIJNDAEL_Top_Iterative.vhdl" into library work
+Parsing entity <RIJNDAEL_TOP_ITER>.
+Parsing architecture <STRUCTURAL> of entity <rijndael_top_iter>.
+Parsing configuration <conf_RIJNDAEL_TOP_ITER>.
+Parsing VHDL file "C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\AES_test.vhd" into library work
+Parsing entity <AES_test>.
+Parsing architecture <behavior> of entity <aes_test>.
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 10.31 secs
+ 
+--> 
+
+Total memory usage is 180160 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   18 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

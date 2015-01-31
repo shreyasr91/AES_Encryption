@@ -1,0 +1,7 @@
+vhdl work "rijndael_pkg.vhdl"
+vhdl work "key_sched_iterative.vhdl"
+vhdl work "interface.vhdl"
+vhdl work "controller_iter.vhdl"
+vhdl work "alg_iterative.vhdl"
+vhdl work "RIJNDAEL_Top_Iterative.vhdl"
+vhdl work "my_module.vhd"

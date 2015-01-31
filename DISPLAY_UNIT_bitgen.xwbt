@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\DISPLAY_UNIT.ncd
+OUTFILE=C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj\DISPLAY_UNIT.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\Shreyas\Desktop\vhdl_prj\vini_proj
+LICENSE=WebPack
+USER_INFO=174150314_1777501427_210585070_223

@@ -1,0 +1,2 @@
+vhdl work ../../clock_divide.vhd
+vhdl work ../example_design/clock_divide_exdes.vhd
